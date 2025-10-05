@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MedicureTestSuite" verbose="1">
+    <test name="DoctorControllerTests">
+        <classes>
+            <class name="com.medicure.microservice.DoctorControllerTestNG"/>
+        </classes>
+    </test>
+</suite>
