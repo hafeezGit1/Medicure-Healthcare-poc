@@ -1,6 +1,9 @@
 pipeline {
     agent any
-    
+
+    tools {
+        maven 'Maven3.9'
+    }
     environment {
         AWS_REGION = 'us-east-1'
         CLUSTER_NAME = 'medicure-cluster'
