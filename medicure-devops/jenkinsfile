@@ -145,7 +145,7 @@ pipeline {
         
         stage('11. Deploy to Production') {
             when {
-                branch 'master'
+                branch 'main'
             }
             steps {
                 echo '========== Deploying to Production =========='
@@ -189,4 +189,5 @@ pipeline {
             cleanWs()
         }
     }
+
 }
